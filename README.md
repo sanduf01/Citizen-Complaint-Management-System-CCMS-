@@ -1,51 +1,53 @@
-# Citizen-Complaint-Management-System-CCMS-
-Authored IEEE-standard SRS with secure authentication and role-based workflows. (Jul 2025)
+# Citizen Complaint Management System (CCMS)
 
-## 📌 Overview
-The **Citizen Complaint Management System (CCMS)** is a digital platform designed to enable citizens to report governance-related issues such as corruption, service delivery delays, and policy violations directly to local government officials.  
-It promotes **transparency, accountability, and civic engagement** by providing secure complaint submission, tracking, and resolution mechanisms.
-
----
-
-## 🎯 Features
-- **User Registration & Login**  
-  Secure authentication using National ID verification, email, or phone number.
-- **Complaint Submission**  
-  Citizens can submit complaints with text, location, and media attachments.
-- **Complaint Tracking**  
-  Real-time status updates with notifications via email/SMS.
-- **Administrator Dashboard**  
-  Tools for government officers to view, filter, assign, and update complaints.
-- **Report Generation**  
-  Visual and textual reports with export options (PDF/CSV).
-- **Security & Compliance**  
-  HTTPS encryption, session management, and compliance with data protection laws.
+## 📖 Project Documentation
+This repository contains the **Software Requirements Specification (SRS)** for the **Citizen Complaint Management System (CCMS)**.  
+The CCMS is designed to provide citizens with a secure and transparent platform to report governance-related issues such as corruption, service delivery delays, and policy violations.
 
 ---
 
-## 🧑‍💻 User Roles
-| Role          | Description                                                                 | Technical Skill |
-|---------------|-----------------------------------------------------------------------------|-----------------|
-| **Citizen**   | Reports issues, tracks complaints, expects transparency                     | Low             |
-| **Admin Officer** | Reviews, manages, and resolves complaints                                | Medium          |
-| **System Admin**  | Maintains infrastructure, security, backups, and performance             | High            |
+## 📌 Contents
+- Full SRS document  
+  - Introduction & Purpose  
+  - Overall Description  
+  - Functional & Non-Functional Requirements  
+  - External Interfaces  
+  - Glossary & TBD items  
 
 ---
 
-## ⚙️ Tech Stack
-- **Frontend:** Web (HTML/CSS/JS), Mobile App (future support)  
-- **Backend:** PHP  
-- **Database:** MySQL  
-- **Web Server:** Apache / Nginx  
-- **APIs:**  
-  - National ID Verification API  
-  - Email & SMS Gateway APIs  
-  - Optional: Social media integration  
+## 🎯 Purpose of This Repo
+- Serve as a reference for developers, testers, and project managers.  
+- Provide a structured specification for future implementation of CCMS.  
+- Ensure transparency and accountability in governance-related complaint handling.  
 
 ---
 
-## 🚀 Installation & Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/ccms.git
-   cd ccms
+## 🧑‍💻 Intended Audience
+- **Developers** → For system design and implementation.  
+- **Testers** → For validation against requirements.  
+- **Project Managers** → For scope and compliance tracking.  
+- **Government Stakeholders** → For reviewing governance compliance and accountability features.  
+
+---
+
+## 🚀 Next Steps
+- Design and implementation of the CCMS based on this SRS.  
+- Database schema creation and backend development.  
+- UI/UX design for citizen and admin dashboards.  
+- Integration with National ID, SMS, and Email APIs.  
+
+---
+
+## 📜 References
+- IEEE SRS Template  
+- [India’s CPGRAMS Portal](https://pgportal.gov.in/)  
+
+---
+
+This repository is currently **documentation-only**.   
+
+---
+
+## 📌 License
+You are free to use and adapt it with proper attribution.
