@@ -94,10 +94,5 @@ MIT License - Free to use/adapt with attribution.
 
 ---
 
-## 🤝 Contributing
-- Fork & PR improvements
-- Report issues via complaints-inspired system 😊
-- Implement SRS features - assign yourself a "complaint"!
-
-**View on GitHub for badges/live rendering.**
-
+**Made by [Sanduni Fernando](https://github.com/sanduf01)**  
+[Download CV](https://raw.githubusercontent.com/sanduf01/my-portfolio/main/portfolio/public/Sanduni%20Fernando%20CV.pdf) | [LinkedIn](https://linkedin.com/in/sanduf01)
