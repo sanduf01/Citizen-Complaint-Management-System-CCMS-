@@ -1,53 +1,103 @@
 # Citizen Complaint Management System (CCMS)
 
-## 📖 Project Documentation
-This repository contains the **Software Requirements Specification (SRS)** for the **Citizen Complaint Management System (CCMS)**.  
-The CCMS is designed to provide citizens with a secure and transparent platform to report governance-related issues such as corruption, service delivery delays, and policy violations.
+## Overview 🚀
+The **Citizen Complaint Management System (CCMS)** is a web/mobile platform for citizens to report governance issues like corruption, service delays, policy violations, election problems, and misconduct directly to authorities. 
+
+**Key Goals** (from SRS):
+- Promote transparency and accountability
+- Enable complaint submission, tracking, and resolution
+- Provide admin dashboards and analytics for officials
+
+**Repo Focus**: SRS documentation for future PHP/MySQL implementation.
+
+[![SRS Version](https://img.shields.io/badge/SRS-1.0-blue)](Mini%20Project%20-%20SRS.pdf)
 
 ---
 
-## 📌 Contents
-- Full SRS document  
-  - Introduction & Purpose  
-  - Overall Description  
-  - Functional & Non-Functional Requirements  
-  - External Interfaces  
-  - Glossary & TBD items  
+## 📋 Features
+| Feature | Description |
+|---------|-------------|
+| User Registration/Login | Secure signup with email/phone + OTP/National ID verification |
+| Complaint Submission | Form with text, location, images/videos; auto-confirmation via SMS/email |
+| Complaint Tracking | Real-time status updates for citizens |
+| Admin Dashboard | Filter/assign/update complaints by category/location/status |
+| Reports | Trends analytics, PDF/CSV export |
+
+
+## 🛠️ Tech Stack
+| Component | Technology |
+|-----------|------------|
+| Backend | PHP |
+| Database | MySQL |
+| Web Server | Apache / Nginx |
+| Frontend | Responsive HTML/CSS/JS (Chrome, Firefox, Edge) |
+| Integrations | National ID API, SMS/Email APIs |
+
+
+## 👥 User Roles
+| Role | Skills | Responsibilities |
+|------|--------|------------------|
+| **Citizen** | Low | Submit/track complaints |
+| **Admin Officer** | Medium | Review/assign/update complaints, generate reports |
+| **System Admin** | High | Manage users, security, backups |
 
 ---
 
-## 🎯 Purpose of This Repo
-- Serve as a reference for developers, testers, and project managers.  
-- Provide a structured specification for future implementation of CCMS.  
-- Ensure transparency and accountability in governance-related complaint handling.  
+
+
+
+## 🛠️ Installation & Setup
+**Current**: Documentation-only repo. For future implementation:
+
+1. Clone repo: `git clone <repo-url>`
+2. Setup LAMP stack (Linux/Apache/MySQL/PHP)
+3. Import DB schema (TBD)
+4. Configure `.env`: DB creds, API keys (National ID, SMS/Email)
+5. `composer install` (PHP deps, TBD)
+6. Run: `php -S localhost:8000`
+
+See SRS Section 2.4 for details.
 
 ---
 
-## 🧑‍💻 Intended Audience
-- **Developers** → For system design and implementation.  
-- **Testers** → For validation against requirements.  
-- **Project Managers** → For scope and compliance tracking.  
-- **Government Stakeholders** → For reviewing governance compliance and accountability features.  
+## 💡 Usage
+
+### Citizen Flow
+1. Register/Login (email/phone + OTP)
+2. Submit complaint: Text + location + media
+3. Track status via dashboard/notifications
+
+### Admin Flow
+1. Login to dashboard
+2. Filter/assign complaints
+3. Update status + add remarks
+4. Generate/export reports
 
 ---
 
-## 🚀 Next Steps
-- Design and implementation of the CCMS based on this SRS.  
-- Database schema creation and backend development.  
-- UI/UX design for citizen and admin dashboards.  
-- Integration with National ID, SMS, and Email APIs.  
+## 🗺️ Roadmap (from SRS)
+- **Immediate**: Backend (PHP/MySQL), basic UI
+- **Next**: API integrations (National ID/SMS)
+- **Future**: Mobile app, GIS mapping (TBD-1), push notifications (TBD-3)
+- **Non-functional**: Security (HTTPS/encryption), 99% uptime
 
 ---
 
-## 📜 References
-- IEEE SRS Template  
-- [India’s CPGRAMS Portal](https://pgportal.gov.in/)  
-
----
-
-This repository is currently **documentation-only**.   
+## 📚 Documentation
+- **[Full SRS PDF](./Mini%20Project%20-%20SRS.pdf)**: Detailed requirements, use cases
+- References: [IEEE SRS](https://www.ieee.org/), [CPGRAMS](https://pgportal.gov.in/)
 
 ---
 
 ## 📌 License
-You are free to use and adapt it with proper attribution.
+MIT License - Free to use/adapt with attribution.
+
+---
+
+## 🤝 Contributing
+- Fork & PR improvements
+- Report issues via complaints-inspired system 😊
+- Implement SRS features - assign yourself a "complaint"!
+
+**View on GitHub for badges/live rendering.**
+
